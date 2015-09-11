@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>지역 경북매일</title>
+	
+	<style>
+	*{margin:0; padding:0}
+	li{list-style:none}
+	#wrap{border:1px #f00 solid; width:900px; height:540px; margin:50px auto; }
+	#wrap #head{border:1px #f00 solid; width:840px; height:111px; margin:10px auto;}
+	#wrap #content{border:1px #f00 solid; width:840px; height:380px; margin:0 auto;}
+	#wrap #content .left{border:1px #f00 solid; width:630px; height:380px; float:left}
+	#wrap #content .left .section1{border:1px #f00 solid; width:630px; height:155px; float:left}
+	#wrap #content .left .section1 ul{border:1px #00f solid; height:134px; margin:10px;}
+	
+	#wrap #content .left .section2{border:1px #f00 solid; width:630px; height:210px; float:left; margin-top:10px;}
+	#wrap #content .left .section2 .sbox1{border:1px #f00 solid; width:300px; height:207px; padding:0 14px 0 0; float:left;}
+	#wrap #content .left .section2 .sbox2{border:1px #f00 solid; width:300px; height:207px; margin-left:330px;}
+	
+	
+	#wrap #content .right{border:1px #f00 solid; width:195px; height:380px; margin-left:640px;}
+	
+	
+	
+	</style>
+	
+	
+</head>
+<body>
+	
+	<div id="wrap">
+		<div id="head"> </div>
+		<div id="content">
+			<div class="left">
+				<div class="section1">
+					<ul>
+						<li> </li>
+					</ul>
+					
+					<ul>
+						
+					</ul>
+					
+				</div>
+				
+				<div class="section2">
+					
+					<div class="sbox1"></div>
+					<div class="sbox2"></div>
+					
+					
+				</div>
+				
+			</div>
+			<div class="right">
+				
+				
+			</div>
+			
+			
+			
+			
+		</div>
+		
+		
+		
+		
+		
+	</div>
+	
+	
+	
+</body>
+</html>

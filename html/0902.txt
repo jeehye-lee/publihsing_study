@@ -1,0 +1,176 @@
+----------------
+<input type="">
+
+
+<input type="text"/>
+<input type="password"/>
+<input type="checkbox"/> : 다중선택
+<input type="radio"/>
+<input type="file"/> : 브라우저마다 나오는모양 틀림
+
+*버튼형식
+<input type="button"/>
+<input type="submit"/>
+<input type="reset"/> : 초기화 
+*a태그는 이동할때에만 
+버튼태그는 범용버튼
+input 버튼은 잘 사용안함
+
+*질의보내기란?
+<input type="submit"/>
+*회원가입할때 확인, 로그인할때 확인
+
+*input에는 값이 있음 <value="">
+
+해보기
+*성별 <input type="radio"/>남자
+       <input type="radio"/>여자
+
+*name="trans"
+
+*<form> 형식을 감싸주는것
+<form action="" method="post">
+                     method="get"> 
+*method 는 두가지형식
+
+======
+<type=""  value/name/>
+
+
+
+
+get 다음페이지로 이동해줄때
+
+<form> 은 개발자가 해줘야 맞는것
+<name=""> DBA 데이타베이스 
+
+--------------------------------------
+<fieldset> 으로 감싸라 (표준양식에 맞는것)
+    <legend> 와 같이 
+
+
+<select> :박스안에서 선택하는 란
+     <option>과 같이 
+
+<option value="">
+
+---------------------
+
+정리
+1.text tag
+h1~h6 p
+
+2.list tag
+ol ul dl
+
+3.table
+4.input
+text inline
+--------------------
+
+input
+textarea 
+속성
+rows=""
+cols=""
+
+
+-----------------------
+CSS.HTML
+
+<div> : 블록. 브로핑할때 사용.
+의미가 없기때문에 제일많이 사용
+
+
+속성
+style="값"
+
+style="width:200px; height:200px;"      
+
+
+div{width:100px; height:200px; border:1px red solid;}
+셀렉터 프로펙티 밸류
+
+-----------------------------------------------
+박스모델
+
+width : 넓이
+height : 높이
+margin : 여백
+padding : 
+border
+
+min-width
+max-width
+
+min-height
+max-height
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+border-tp
+border-right
+border-bottom
+border-left
+border-width
+border-style
+border-color
+
+
+border-width:2px 4px 6px 8px;
+border-style:solid dashed dotted double;
+border-color:red green blue black;
+
+쓰는법
+border:1px #ppp solid;
+border-bottom:1px green solid;
+border-left:1px red solid;
+
+border-color: black
+
+
+
+
+---------------------
+
+자식요소 선택자(띄어쓰기)
+ul.select>li li{border-color:#00f}
+ul.select>li>ul>li{border-color:#00f}
+
+ul.select>li:first-child{background:#ccc;}
+
+
+ul.select{border:1px #f00 solid}
+ul li{border:1px #f00 solid}
+
+
+#name{width:300px; border:1px #f00 solid}
+#name li{border-top:1px #f00 solid;}
+#name li:first-child{border:none;}
+
+#name ul ul{display:none;}
+#name>ul>li:hover{background-color:#ccc; color:#f00}
+#name>ul>li:hover>ul{display:block;}
+
+
+
+
+http://jsfiddle.net/rw97g2om/
+
+
+
+
+
+
+
+
+
+
